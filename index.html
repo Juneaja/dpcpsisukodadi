@@ -351,23 +351,6 @@
     </style>
 </head>
 <body>
-    <button id="playBtn">Klik untuk Play</button>
-    <audio id="psi" loop>
-        <source src="psi.mp3" type="audio/mpeg">
-    </audio>
-
-    <script>
-        document.getElementById('playBtn').addEventListener('click', function() {
-            const audio = document.getElementById('myAudio');
-            audio.muted = false; // Unmute setelah user click
-            audio.play().then(() => {
-                console.log('Audio autoplay berhasil!');
-            }).catch(e => {
-                console.log('Error:', e);
-            });
-        });
-    </script>
-</body>
 </html>
     
     <!-- Header -->
